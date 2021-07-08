@@ -13,8 +13,8 @@ ovth = (toth - regh)
 # define the variable 'overtime pay' based on computation
 ovtp = ((regh * regr) + (ovth * (regr * 1.5)))
 
-# if statement to print 'overtime pay' if 'total hours' > 40 ; if fasle, print pay based on user inputs
-if toth > regh :
-    print('Pay:',ovtp)
-else :
-    print('Pay:',(toth * regr))
+# if statement to print 'overtime pay' if 'total hours' > 40 ; if false, print pay based on user inputs
+if toth > regh:
+    print('Pay:', ovtp)
+else:
+    print('Pay:', (toth * regr))
