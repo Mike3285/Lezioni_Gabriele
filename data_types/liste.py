@@ -1,3 +1,10 @@
+"""
+    List is a collection which is ordered and changeable. Allows duplicate members.
+    Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+    Set is a collection which is unordered and unindexed. No duplicate members.
+    Dictionary is a collection which is ordered* and changeable. No duplicate members.
+"""
+
 # LE LISTE
 # Definizione: Una lista è un insieme ordinata di elementi, ognuno identificato da un indice.
 # Su python è rappresentata dagli elementi separati da virgole e chiusi tra []
@@ -105,8 +112,8 @@ indice_di_mezzo = int(lunghezza_lista_indefinita/2)
 # NB notare i ":" che servono ad ottenere la fetta da quell'index in poi
 mezza_lista_indefinita = lista_indefinita[indice_di_mezzo :]
 
-
-
+# Possiamo anche contare quante volte un particolare elemento compare all'interno di una di esse,
+# usando il metodo .count(elemento)
 
 
 
